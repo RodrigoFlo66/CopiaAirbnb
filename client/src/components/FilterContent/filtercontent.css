@@ -1,0 +1,42 @@
+.icons-change-count{
+  display: flex;
+  gap: 15px;
+}
+
+.icons-change-count .value{
+  font-size: 25px;
+}
+
+.icons-change-count .icon{
+  font-size: 25px;
+}
+
+.filters-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  box-shadow: 2px 1px 5px rgba(0,0,0, 0.1);
+  border-radius: 50px;
+}
+
+.range-dates{
+  position: relative;
+  top: 12px;
+}
+
+.add-label{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.btn-send{
+  margin-left: auto;
+  margin-right: auto;
+}

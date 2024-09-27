@@ -1,0 +1,148 @@
+.form-title {
+  text-align: center;
+}
+
+.subtitulos {
+  text-align: center;
+
+}
+
+.fila-checkbox {
+  display: flex;
+  /* Establecer el contenedor principal en flexbox */
+}
+
+.fila-check-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.columna-check-input {
+  margin: 10px;
+  /* Espacio entre los formularios */
+}
+
+.columna-checkbox {
+  display: flex;
+  /* Establecer las filas en flexbox */
+  flex-direction: column;
+  /* Establecer dirección en columna para elementos en cada fila */
+  align-items: flex-start;
+  /* Alinear elementos en cada fila a la izquierda */
+  margin-right: 50px;
+  /* Espacio entre las dos columnas */
+}
+
+.imgs-register-form-flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+}
+
+
+@media (min-width: 992px) {
+
+  /*para escritorio */
+  .inputsize {
+    width: 500px;
+    /*tamaño del input para escritorio */
+  }
+
+  .input-check {
+    width: 370px;
+    /*tamaño de los input de check in y check out*/
+  }
+
+  .ant-form-item-control-input-content .ant-select {
+    width: 500px;
+    /*tamaño del input para seleccionar*/
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .margen {
+    margin: 10px 100px;
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.33);
+    box-shadow: 0px 8px 32px 0 rgba(0, 0, 255, 0.3);
+    backdrop-filter: blur(3px);
+    border: 2px outset #01c38e;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /*para tablets*/
+
+  .input-check {
+    width: 200px;
+    /*tamaño de los inputs de check in y check out para tablets*/
+  }
+
+  .button-container {
+    margin-bottom: 10px;
+    /* Agrega margen inferior a ambos botones en tabletas */
+    width: 100%;
+    /* Establece el ancho de ambos botones al 100% para ocupar todo el ancho de la pantalla en tabletas */
+    text-align: center;
+    /* Centra el texto de ambos botones horizontalmente */
+  }
+
+  .margen {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.33);
+    box-shadow: 0px 8px 32px 0 rgba(0, 0, 255, 0.3);
+    backdrop-filter: blur(3px);
+    border: 2px outset #01c38e;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  /* para dispositivos móviles */
+  .button-container {
+    flex-direction: column;
+    /* Cambia a disposición de columna en dispositivos móviles */
+    align-items: center;
+    /* Centra verticalmente el contenido en dispositivos móviles */
+  }
+
+  .button-container button {
+    margin-bottom: 10px;
+    /* Agrega margen inferior a los botones en dispositivos móviles */
+    width: 100%;
+    /* Establece el ancho de los botones al 100% para ocupar todo el ancho de la pantalla */
+  }
+
+  .margen {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.33);
+    box-shadow: 0px 8px 32px 0 rgba(0, 0, 255, 0.3);
+    backdrop-filter: blur(3px);
+    border: 2px outset #01c38e;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+  }
+
+}

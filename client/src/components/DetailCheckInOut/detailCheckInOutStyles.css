@@ -1,0 +1,50 @@
+.check-in-out-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.check-in-container{
+    flex: 1 1;
+
+}
+.check-in-container > h3{
+    text-align: center;
+}
+
+.check-out-container{
+    flex: 1 1;
+}
+
+.check-out-container > h3{
+    text-align: center;
+}
+
+@media (280px <= width <=320px) {
+    .check-in-out-container{
+        display: block;
+    }
+}
+
+@media (320px <= width <=480px) {
+    .check-in-out-container{
+        display: block;
+    }
+}
+
+@media (480px <= width <=768px) {
+    .check-in-out-container{
+        display: block;
+    }
+}
+
+@media (768px <= width <=1024px) {
+
+}
+
+@media (1024px <= width <=1200px) {
+
+}
+
+@media (1200px <= width <=1440px) {
+
+}

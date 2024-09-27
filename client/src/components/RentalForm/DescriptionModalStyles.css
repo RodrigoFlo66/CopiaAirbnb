@@ -1,0 +1,22 @@
+.description-modal {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 34vw !important;
+  text-align: center;
+}
+
+.buttons-modal-description-container {
+  display: block !important;
+  margin-top: 2vh;
+}
+
+.description-select {
+  width: 25vw !important;
+  text-align: justify;
+}
+
+.save-button {
+  display: block;
+  margin: 0 auto;
+}

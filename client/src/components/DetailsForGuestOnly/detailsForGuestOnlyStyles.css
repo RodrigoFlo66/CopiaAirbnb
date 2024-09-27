@@ -1,0 +1,12 @@
+.button-detail-for-guest-only {
+  margin: 0 !important;
+  padding: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: break-spaces;
+  height: 6vh;
+}
+
+
+

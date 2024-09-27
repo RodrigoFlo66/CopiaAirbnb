@@ -1,0 +1,13 @@
+.pages-container {
+    /* background-color: rgb(239, 255, 255); */
+    display: flex;
+    flex-direction: column;
+    /* background-image: url('../../assets/homePageEnDesarrollo.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    padding: 10px 10px; 
+    height: 100%;
+    min-height: calc(100vh - (61px+25px)); /* 64px es la altura del encabezado y 25px del footer */  
+    font-family: 'Lato', sans-serif;
+}

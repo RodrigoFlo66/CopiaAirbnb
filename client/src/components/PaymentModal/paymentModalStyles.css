@@ -1,0 +1,31 @@
+.payment-modal {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+}
+
+
+.title-payment-modal {
+  text-align: center;
+}
+
+.content-payment-modal {
+  text-align: center;
+  font-size: 16px;
+}
+
+.btns-payment-modal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.successful-payment-modal{
+  width: 40vw !important;
+}
+
+.successful-payment-content {
+  text-align: center;
+  font-size: 28px;
+  margin: 15vh 0;
+}

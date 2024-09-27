@@ -1,0 +1,7 @@
+.img-guest-card-carousel{
+    width: 110px;
+    height: 210px;
+    object-fit: cover;
+    margin: auto;
+    /* margin-top: 20px; */
+}

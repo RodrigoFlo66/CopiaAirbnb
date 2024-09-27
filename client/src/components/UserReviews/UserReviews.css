@@ -1,0 +1,18 @@
+.reviews-list {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.switch-reviews {
+  margin: 0.6vw;
+  font-weight: bold;
+}
+
+.addGuestReview {
+  padding: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

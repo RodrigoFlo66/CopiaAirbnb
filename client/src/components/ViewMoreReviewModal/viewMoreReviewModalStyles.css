@@ -1,0 +1,15 @@
+.more-review-modal-container{
+  display: flex;
+  gap: 30px;
+}
+
+.segmented-rates-container{
+  width: 30%;
+  font-size: 15px;
+}
+
+.more-review-comment{
+  width: 70%;
+  font-size: 14px;
+  font-weight: 400;
+}

@@ -1,0 +1,96 @@
+.review-form-container {
+  width: 100%;
+}
+
+.review-form-flex-container{
+  display: flex;
+  gap: 20px;
+}
+
+.rates-container{
+  width: 50%;
+}
+
+.comment-container {
+  width: 50%;
+}
+
+.btns-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (320px <=width <=480px) {
+  .review-form-flex-container{
+    display: block;
+    gap: 0px;
+  }
+
+  .comment-container {
+    width: 100%;
+  }
+
+  .review-form-container {
+    width: 100%;
+  }
+}
+
+@media (480px <=width <=576px) {
+  .review-form-flex-container{
+    display: block;
+    gap: 0px;
+  }
+  .rates-container{
+    width: 50%;
+  }
+  
+  .comment-container {
+    width: 100%;
+  }
+
+  .review-form-container {
+    width: 100%;
+  }
+}
+
+@media (576px <=width <=768px) {
+  
+
+  .comment-container {
+    width: 100%;
+  }
+
+  .review-form-container {
+    width: 100%;
+  }
+}
+
+@media (768px <=width <=1024px) {
+  .comment-container {
+    width: 100%;
+  }
+
+  .review-form-container {
+    width: 100%;
+  }
+}
+
+@media (1024px <=width <=1200px) {
+  .comment-container {
+    width: 100%;
+  }
+
+  .review-form-container {
+    width: 100%;
+  }
+}
+
+@media (1200px <=width <=1440px) {
+  .comment-container {
+    width: 100%;
+  }
+
+  .review-form-container {
+    width: 100%;
+  }
+}

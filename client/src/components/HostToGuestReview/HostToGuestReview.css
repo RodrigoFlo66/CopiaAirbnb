@@ -1,0 +1,72 @@
+.review-host-to-guest-form-container {
+  width: 100%;
+}
+
+.comment-btns-container {
+  width: 100%;
+}
+
+.btns-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (320px <=width <=480px) {
+  .comment-btns-container {
+    width: 100%;
+  }
+
+  .review-host-to-guest-form-container {
+    width: 93%;
+  }
+}
+
+@media (480px <=width <=576px) {
+  .comment-btns-container {
+    width: 100%;
+  }
+
+  .review-host-to-guest-form-container {
+    width: 70%;
+  }
+}
+
+@media (576px <=width <=768px) {
+  .comment-btns-container {
+    width: 100%;
+  }
+
+  .review-host-to-guest-form-container {
+    width: 57%;
+  }
+}
+
+@media (768px <=width <=1024px) {
+  .comment-btns-container {
+    width: 100%;
+  }
+
+  .review-host-to-guest-form-container {
+    width: 40%;
+  }
+}
+
+@media (1024px <=width <=1200px) {
+  .comment-btns-container {
+    width: 100%;
+  }
+
+  .review-host-to-guest-form-container {
+    width: 35%;
+  }
+}
+
+@media (1200px <=width <=1440px) {
+  .comment-btns-container {
+    width: 100%;
+  }
+
+  .review-host-to-guest-form-container {
+    width: 30%;
+  }
+}

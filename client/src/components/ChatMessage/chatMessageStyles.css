@@ -1,0 +1,46 @@
+.chat-message-flex-container{
+  display: flex;
+}
+
+.chat-message-end{
+  display: flex;
+  justify-content: end;
+}
+
+.message-right {
+  background: #91fbff;
+  border-radius: 25px;
+  padding: 0.5em 1em !important;
+  margin: 1em;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 50px;
+  max-width: 70%;
+}
+
+.message-left {
+  background: aliceblue;
+  border-radius: 25px;
+  padding: 0.5em 1em !important;
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.message-text {
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.message-icon {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.chatbot-title {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}

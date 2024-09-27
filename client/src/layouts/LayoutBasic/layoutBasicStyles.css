@@ -1,0 +1,8 @@
+.layout-basic-container{
+    min-height: 100vh !important;
+}
+
+.layout-basic-content-container{
+    margin: 0 !important;
+    padding: 0 !important;
+  }

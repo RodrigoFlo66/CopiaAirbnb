@@ -1,0 +1,24 @@
+.my-reserve-card {
+  width: 265px;
+  /* text-align: center;  */
+}
+
+
+.img-my-reserve-card-carousel {
+  width: 265px;
+  height: 230px;
+  object-fit: cover;
+  margin: auto;
+  /* margin-top: 20px; */
+}
+
+.meta-my-reserve-card-title-container {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.meta-my-reserve-card-description-container {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}

@@ -1,0 +1,46 @@
+.table-my-host-rents th {
+  background: linear-gradient(to bottom, #001425, #003146, #013748) !important;
+  border: 1px solid #fff;
+  color: #fff !important;
+  text-align: center !important;
+}
+
+.table-my-host-rents tr:nth-child(even) td {
+  border: 1px dashed silver !important;
+  text-align: center !important;
+  background-color: rgb(236, 233, 233) !important;
+}
+
+.table-my-host-rents tr:nth-child(odd) td {
+  border: 1px dashed lightgrey !important;
+  text-align: center !important;
+  background-color: white !important;
+}
+
+.table-my-host-rents tr:hover td {
+  background-color: #a0d3f146 !important;
+}
+
+@media (320px <=width <=480px) {
+  .table-my-host-rents {
+    overflow-x: auto;
+  }
+}
+
+@media (480px <=width <=576px) {
+  .table-my-host-rents {
+    overflow-x: auto;
+  }
+}
+
+@media (576px <=width <=768px) {
+  .table-my-host-rents {
+    overflow-x: auto;
+  }
+}
+
+/* @media (768px <=width <=1024px) {}
+
+@media (1024px <=width <=1200px) {}
+
+@media (1200px <=width <=1440px) {} */

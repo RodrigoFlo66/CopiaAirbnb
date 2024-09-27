@@ -1,0 +1,102 @@
+.app-layout-container {
+  min-height: 100vh;
+  /* background-color: crimson; */
+}
+
+/* 
+    .app-layout-container   .app-sider-container {
+    height: 100vh !important;
+    width: 350px !important;
+    position: fixed !important;
+    z-index: 100 !important; 
+    display: flex;
+    background-color: rgb(115, 210, 19);
+  } */
+
+/* Estilo para header fijo */
+/* .app-sider-container {
+  left: 0 !important;
+  transition: left 0.2s !important;
+} */
+
+.app-sider-container--collapsed {
+  display: block !important;
+}
+
+.app-header-container--collapsed {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 61px !important;
+  font-family: 'Lato', sans-serif !important;
+  position: fixed !important;
+  z-index: 100 !important; /* Estilo para header fijo */
+  width: calc(100% - 70px) !important; /* Estilo para header fijo */
+  transition: width 0.2s, left 0.2s !important; /* Estilo para header fijo */
+  right: 0 !important;/* Estilo para header fijo */
+  /* background-color: rgb(163, 249, 77); */
+}
+
+.app-header-container {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 61px !important;
+  font-family: 'Lato', sans-serif !important;
+  position: fixed !important; /* Estilo para header fijo */
+  z-index: 100 !important; /* Estilo para header fijo */
+  width: calc(100% - 17%) !important; /* Estilo para header fijo */
+  transition: width 0.2s, right 0.2s !important; /* Estilo para header fijo */
+  right: 0 !important; /* Estilo para header fijo */
+  /* background-color: rgb(163, 249, 77); */
+}
+
+.app-content-container {
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-top: 61px !important;
+  /* Estilo para header fijo */
+  /* background-color: chartreuse; */
+}
+
+.app-footer-container {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 3.6vh;
+  font-size: 14px;
+  /* letter-spacing: 0.7px; */
+  /* background-color: chartreuse; */
+}
+
+@media (280px <=width <=1024px) {
+  .app-sider-container--collapsed {
+    display: none !important;
+  }
+
+  .app-sider-container {
+    height: 100% !important;
+    position: fixed !important;
+    z-index: 200 !important;
+  }
+
+  /* Estilo para header fijo */
+  .app-header-container--collapsed {
+    width: 100% !important;
+  }
+
+  /* Estilo para header fijo */
+  .app-header-container {
+    width: 100% !important;
+  }
+}
+
+/* @media only screen and (max-width: 1000px){
+    .app-sider-container--collapsed{
+      display: none !important;
+    }
+  
+    .app-sider-container{
+      height: 100% !important;
+      position: fixed !important;
+      z-index: 100 !important;
+    }
+  
+  } */

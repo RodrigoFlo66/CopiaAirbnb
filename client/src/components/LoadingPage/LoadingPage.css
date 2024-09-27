@@ -1,0 +1,16 @@
+.loading {
+  padding: 50px;
+  border-radius: 4px;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+
+.loading-container img {
+  margin-bottom: -20px;
+}
